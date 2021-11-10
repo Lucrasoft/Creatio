@@ -49,6 +49,8 @@ namespace Lucrasoft.Creatio
             get
             {
                 if (!isLoggedInSuccess) return null;
+
+               
                 return container;
             }
         }
